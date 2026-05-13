@@ -1,0 +1,17 @@
+conda create --name yolo-env1 python=3.12
+
+or (if environment already existing),
+
+conda activate yolo-env1
+
+or (to see environment list),
+
+conda env list
+
+use cd to change directory to where the model is saved
+
+pip install ultralytics
+
+curl -o yolo_detect.py https://www.ejtech.io/code/yolo_detect.py
+
+python yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720
