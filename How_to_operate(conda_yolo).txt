@@ -1,8 +1,11 @@
 conda create --name yolo-env1 python=3.12
+python -m venv yolo-env1
 
 or (if environment already existing),
 
 conda activate yolo-env1
+yolo-env1\Scripts\activate.bat
+
 
 or (to see environment list),
 
